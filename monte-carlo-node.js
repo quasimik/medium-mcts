@@ -31,7 +31,7 @@ class MonteCarloNode {
 
   /**
    * Get the MonteCarloNode corresponding to the given play.
-   * @param {number} play - The play leading to the child node.
+   * @param {Play} play - The play leading to the child node.
    * @return {MonteCarloNode} The child node corresponding to the play given.
    */
   childNode(play) {
